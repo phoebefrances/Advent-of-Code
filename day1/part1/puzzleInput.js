@@ -10,5 +10,6 @@ function syncReadFile(filename) {
   return arr;
 }
 
-syncReadFile('./puzzleInput.txt');
+let array = syncReadFile('./puzzleInput.txt');
 
+module.exports = array
